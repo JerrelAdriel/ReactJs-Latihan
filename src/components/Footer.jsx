@@ -1,14 +1,13 @@
-import React from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import { Container  } from 'react-bootstrap';
+import '../assets/css/module.style.css';
 
 
 const Footer = () =>{
     return (
-        <Container style={{textAlign: "center"}}>
-            <div class="copyright">&copy; Copyright <strong>Jstore</strong>. All Rights Reserved</div>
-            <div class="credits">Designed by Jerrel</div>
-        </Container>
+            <div  style={{textAlign: "center"}} className='bg py-4 fixed-bottom'>
+                <div class="copyright">&copy; Copyright <strong>Jerrel</strong>. All Rights Reserved</div>
+                <div class="credits">Designed by Jerrel</div>
+            </div>     
     )
 }
 

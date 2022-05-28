@@ -1,5 +1,7 @@
 import React from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import ReactDOM from 'react-dom/client';
+// import {GoogleOAuthProvider} from 'react-google-oauth';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';

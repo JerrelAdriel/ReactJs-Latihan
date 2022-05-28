@@ -12,7 +12,7 @@ const card = () => {
             <Card.Text>
             Elderflame Bundle adalah sebuah bundle yang berisi senjata-senjata bertema elderflame.
             </Card.Text>
-            <Button variant="primary">Go Buy</Button>
+            <Button variant="dark">Buy</Button>
         </Card.Body>
         </Card>
 
